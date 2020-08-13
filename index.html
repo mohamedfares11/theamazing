@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shoutchat icon" href="project.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>The Amazing </title>
+</head>
+<body>
+      <section>
+          <div class="logo" data-aos="fade-right" data-aos-duration="1000">Amazing</div>
+          <img class="bg" src="bg.jpg" alt="">
+          <div class="content" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
+              <h1 data-aos="fade-down-right" data-aos-duration="1000">Let'<span>s</span> Go <br>To<span> See Website</span></h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Atque ab enim consequatur voluptatem. Possimus omnis laboriosam,
+                neque maiores optio quae sint deserunt quis nobis inventore sequi expedita aut,
+                asperiores ex!
+            </p>
+            <button class="button"><a href="#"></a>Get Started</a></button>
+          </div>
+          <div class="copyrightText" > 
+        <p >
+           Build With Mohamed <span> In 2020</span>
+        </p>
+      </div>
+      </section>
+      <div class="menuToggle" onclick="toggleMenu();"></div>
+      <div class="navigation">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Work</a></li>   
+          </ul>
+          <div class="scorilbar" data-aos="zoom-out">
+            <ul>
+              <li><a href="#"><img src="facebook.png" alt=""></a></li>
+              <li><a href="#"><img src="instagram.png" alt=""></a></li>
+              <li><a href="#"><img src="twitter.png" alt=""></a></li>  
+            </ul>
+            <a href="mailto:mohfar4030@gmail.com" class="emailbox"><img src="email.png" alt=""></a>
+        </div> 
+      </div>
+      <script type="text/javascript">
+          function toggleMenu(){
+              var menuToggle = document.querySelector('.menuToggle');
+              var navigation = document.querySelector('.navigation');
+              menuToggle.classList.toggle('active');
+              navigation.classList.toggle('active');
+          }
+      </script>
+      <script>
+        AOS.init();
+      </script>
+     
+</body>
+</html>
